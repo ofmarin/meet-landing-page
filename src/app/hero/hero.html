@@ -1,0 +1,19 @@
+  <figure class="image-container">
+    <img [ngSrc]="bannerLeft" alt="BANNER LEFT" height="160" width="208"  priority="true">
+    <img [ngSrc]="bannerRight" alt="BANNER RIGHT"  height="160" width="208"  priority = "true">
+  </figure>
+
+  <div id="text-content">
+  <h1>Group Chat for Everyone</h1>
+
+  <p> Meet makes it easy to connect with others
+  face-to-face virtually and collaborate across any device</p>
+    <div id="buttons">
+      @for(button of btnContent.getData() ; track  button){
+        <app-btn [content]= "button" [variant] = 'variant'></app-btn>
+      }
+    </div>
+  </div>
+
+
+

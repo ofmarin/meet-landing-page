@@ -1,0 +1,29 @@
+button{
+  border: none;
+  border-radius: 29px;
+  padding: 16px 40px;
+  font:var(--textpreset-5);
+  cursor:pointer;
+}
+
+.btn-hero{
+  background-color: var(--cyan-600);
+  color:var(--white);
+}
+
+.btn-hero span{
+  color: var(--cyan-300);
+}
+
+.btn-footer{
+  background-color: var(--purple-600);
+  color:var(--white);
+}
+.btn-footer span{
+  color:var(--purple-300);
+}
+
+.versionless{
+  color:var(--white);
+  background-color:var(--purple-600) ;
+}
