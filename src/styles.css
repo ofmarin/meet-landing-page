@@ -9,10 +9,10 @@
   --slate-300: #D1D1DF;
   --white: #FAFAFA;
 
- --textpreset-1: 900 64px/1.1 "Red Hat Display", sans-serif;
-  --textpreset-2: 900 40px/1.1 "Red Hat Display", sans-serif;
+ --textpreset-1: 900 40px/1.1 "Red Hat Display", sans-serif;
+  --textpreset-2: 900 32px/1.1 "Red Hat Display", sans-serif;
   --textpreset-3: 900 16px/1.1 "Red Hat Display", sans-serif;
-  --textpreset-4: 500 18px/1.1 "Red Hat Display", sans-serif;
+  --textpreset-4: 500 18px/1.5 "Red Hat Display", sans-serif;
   --textpreset-5: 900 16px/1.5 "Red Hat Display", sans-serif;
 
   --spacing-1400: 112px;
@@ -48,10 +48,10 @@
   margin:0;
 }
 html{
-  min-height:100dvh;
+  min-height:fit-content;
 }
 body{
   max-width: 100%;
   box-sizing: border-box;
-  min-height:100dvh;
+  min-height:fit-content;
 }

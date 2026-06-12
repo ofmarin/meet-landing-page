@@ -80,14 +80,22 @@
   text-align: center;
   gap:16px;
 
-  p{
+  h2{
+    color:var(--slate-900);
+    font:var(--textpreset-2);
+  }
+  #built{
     color:var(--cyan-600);
     font:var(--textpreset-3);
+    letter-spacing: var(--spacing-50);
   }
 }
 
 #description{
-
   font:var(--textpreset-4);
   color:var(--slate-600);
+}
+
+#text{
+  text-align: center;
 }

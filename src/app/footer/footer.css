@@ -63,11 +63,16 @@
   justify-content: center;
   align-items: center;
   padding:64px 32px;
+  transform: translateY(-2rem);
 }
 
 
 
 #footer-rectangle{
-  transform: translateY(2rem);
-  max-height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#footer-cta{
+  min-height: fit-content;
 }
