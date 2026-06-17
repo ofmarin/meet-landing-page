@@ -47,5 +47,64 @@ h1{
 
 }
 
-app-btn{
+@media(min-width: 766px){
+
+  #text-content{
+    padding: 72px 116px 0 116px;
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #buttons{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media(min-width: 838px) and (max-width: 1024px){
+  .image-container{
+      width:clamp(768px, 100% , 1024px);
+      gap:clamp(32px, 4.53vw, 64px );
+  }
+
+}
+/* revisar el ancho de las imagenes para esta dimension
+ver por que no estan ocupando el espacio qiue deberian usar
+del grid*/
+@media(min-width:1024px){
+  main{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:1fr;
+    align-items:center;
+    gap:32px;
+  }
+  #text-content{
+    padding: 72px 50px 0 50px;
+  }
+
+  .image-container{
+    display:contents;
+  }
+
+  .image-container img:nth-child(1){
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+
+  .first,
+  .second{
+    width: 100%;
+  }
+
+  #text-content{
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+
+  .image-container img:nth-child(2){
+    grid-column: 3/4;
+    grid-row: 1/1;
+  }
 }
